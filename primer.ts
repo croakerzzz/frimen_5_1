@@ -1,5 +1,6 @@
-myFunc();
+let myFunc = function(name, weather) {
+    console.log("Hello " + name + ".");
+    console.log("It is " + weather + " today");
+};
 
-function myFunc() {
-    console.log("This is a statement");
-}
+myFunc("Adam", "sunny");
